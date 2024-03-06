@@ -3,8 +3,8 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-
 
 function Footer1() {
   return (
-    <Footer container>
-      <div className="w-full">
+    <footer className="mt-6 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="w-full  border-0">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
             <Footer.Brand
@@ -50,7 +50,7 @@ function Footer1() {
           </div>
         </div>
       </div>
-    </Footer>
+    </footer>
   );
 }
 export default Footer1;

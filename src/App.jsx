@@ -6,7 +6,7 @@ import Footer1 from './componet/footer'
 import Main from './componet/main'
 function App () {
   return (
-    <div className="h-screen flex flex-col justify-between">
+    <div className="h-screen">
       <NavbarComponent1/>
       <Main/>
       <Footer1/>
